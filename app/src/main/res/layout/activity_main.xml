@@ -10,4 +10,17 @@
         android:text="Login with Twitter"
         android:id="@+id/buttonLogin" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
         android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextStatus"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tweet"
+        android:id="@+id/buttonUpdateStatus"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
 </LinearLayout>
